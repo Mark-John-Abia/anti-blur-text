@@ -1,0 +1,14 @@
+    backface-visibility: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    will-change: transform;
+
+
+
+	
+button:hover {
+    transform: scale(1.2) rotate(5deg);
+    transform-origin: center;
+    transform: translateZ(0); /* Force GPU acceleration */
+}
